@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>SIVAI</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+      <!-- Css Styles -->  
+   <!-- Css Styles --> 
+   <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"> 
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-gymso-style.css">
+       
+     <style>
+        .modal{
+          display:none;
+          position:fixed;
+          z-index: 1;
+          left:0;
+          top:-10;
+          width: 100%;
+          height:100%;
+          overflow: auto;
+          background-color: rgba(0,0,0);
+          background-color: rgba(0,0,0,0.4);
+        }
+      
+        .modal-content {
+          background-color: #fefefe;
+          margin: 10% auto;
+          padding:20px;
+          border: 1px solid #888;
+          width: 50%;
+        }
+      
+        #close{
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold; 
+        }
+
+      
+         #close:hover, #close:focus {
+          color: black;
+          text-decoration:none;
+          cursor: pointer;
+        }
+      </style>
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html"><img width="100px" src="images/KXAK6355.jpg" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="index.html#home" class="nav-link smoothScroll">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="index.html#class" class="nav-link smoothScroll">Categorias</a>
+                    </li>
+ 
+                    <li class="nav-item">
+                        <a href="index.html#schedule" class="nav-link smoothScroll">Nossos Produtos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link smoothScroll">Fale Connosco</a>
+                    </li>
+
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link smoothScroll">Sobre Nós</a>
+                    </li>
+                </ul>
+                
+
+                <ul class="social-icon ml-lg-3">
+                    <li><a href="https://fb.com/tooplate" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+ 
+    
+
+
+    <!-- About Section Begin -->
+    <section class="about-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about__img">
+                        <img src="images/portfolio/portfolio-1.jpg"  alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about__text">
+                      
+                        <div class="mt-lg-12 mb-lg-0 mb-4 col-lg-12 col-md-10 mx-auto col-12">
+                            <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">Auricular Ultra Power</h2>
+   
+                            <p data-aos="fade-up" data-aos-delay="400">
+
+                                <span id="mensagem"></span>
+                                <script>
+                                    var myParamsUrl= new URLSearchParams(window.location.search);
+                                    var paramentro=myParamsUrl.get("reserva");
+                                    var mensagem=document.getElementById("mensagem");
+
+                                    if(paramentro=="true"){
+                                        mensagem.innerHTML=`  <div class="alert alert-success">Reserva Feita com Sucesso</div> `;    
+                                    }
+
+                                </script>
+                               
+                                Auriculares <br>
+                                Preço: 3.500,00KZ <br> 
+                                cores: Azul, Preto   
+                                <br>
+
+                            </p>
+   
+  
+                        </div>
+                        <div class="about__achievement">
+                            
+                            <div class="about__achieve__item">
+                                <span class="fa fa-cart-plus"></span>
+                                <h4 class="achieve-counter">467</h4>
+                                <p>Nº de Vezes comprado</p>
+                            </div> 
+                            <div class="about__achieve__item">
+                                <span class="fa fa-shopping-bag"></span>
+                                <h4 class="achieve-counter">6</h4>
+                                <p>Quantidade em Stock</p>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-btn" id="myBtn">Reservar Compra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+     <!-- FOOTER -->
+     <footer class="site-footer" style="background-color: #130244;">
+          <div class="container">
+               <div class="row">
+
+                    <div class="ml-auto col-lg-4 col-md-5">
+                        <p class="copyright-text"> 
+                        
+                            Copyright &copy;2022 - All rights reserved |  Desenvolvido por <b>CalungaSOFT</b>
+                    </div>
+
+                    <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                        <p class="mr-4">
+                            <i class="fa fa-envelope-o mr-1"></i>
+                            <a href="#">calungasoft@gmail.co</a>
+                        </p>
+
+                        <p><i class="fa fa-phone mr-1"></i> 941 452 153</p>
+                        
+                    </div>
+                    
+               </div>
+              
+          </div>
+     </footer>
+ 
+
+     <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span id="close"> &times;</span>
+          
+                    <h2>Reservar Compra</h2>
+                    <form action="produto-1.html?reserva=true" method="post">
+                        <div class="form-group">
+                        <br>
+                              <div class="form-group">  
+                                <input type="text" name="nomedousuario" class="form-control" placeholder="Digite o nome completo" required="required"> 
+                            </div>
+                          
+                            <div class="form-group">  
+                                <input type="text" name="email" class="form-control" placeholder="Digite o seu E-mail" required="required"> 
+                            </div>
+
+                            <div class="form-group">  
+                              
+                                <input type="number" name="email" class="form-control" placeholder="Quantidade"  > 
+                            </div>
+
+                             
+                            
+                            <div class="form-group">
+                               <center>
+                                 <button type="submit"  name="cadastrar" class="btn btn-success">CONFIRMAR COMPRA</button>
+                              </center>
+                            </div>
+                              
+                            
+                            
+                        </div>
+                    </form>
+        </div>
+        
+    </div>
+    
+    
+                <script>
+                    var btn=document.getElementById("myBtn");
+                   
+                    var modal=document.getElementById("myModal");
+                     
+                    var span=document.getElementById("close");
+                    
+                    btn.addEventListener("click", ()=>{
+                      modal.style.display="block";
+                                                  })
+                    span.addEventListener("click", ()=>{
+                      modal.style.display="none";
+                                                  })
+                    window.onclick =(event)=>{
+                        if(event.target == modal){
+                          modal.style.display="none";
+                        }
+                    }
+ 
+
+                  </script>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/aos.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+         <!-- Js Plugins -->   
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
